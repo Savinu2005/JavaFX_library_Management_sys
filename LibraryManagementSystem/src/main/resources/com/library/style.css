@@ -1,0 +1,28 @@
+
+.root { -fx-font-family: "Segoe UI"; -fx-background-color: #f4f7fb; -fx-font-size: 13px; }
+.login-background { -fx-background-color: linear-gradient(to bottom right, #0f2747, #235b83); }
+.login-card { -fx-background-color: white; -fx-background-radius: 18; -fx-effect: dropshadow(gaussian, #10243a55, 24, .2, 0, 8); }
+.eyebrow { -fx-text-fill: #2673a6; -fx-font-weight: bold; }
+.login-title { -fx-font-size: 27px; -fx-font-weight: bold; -fx-text-fill: #15283d; }
+.muted, .hint { -fx-text-fill: #718096; }
+.hint { -fx-font-size: 11px; }
+.error-text { -fx-text-fill: #c0392b; }
+.primary-button { -fx-background-color: #1769aa; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 11 18; }
+.primary-button:hover { -fx-background-color: #0f568e; }
+.secondary-button { -fx-background-color: #eaf0f6; -fx-text-fill: #24445f; -fx-background-radius: 8; -fx-padding: 10 18; }
+.sidebar { -fx-background-color: #132b45; -fx-padding: 22 14; }
+.brand { -fx-text-fill: white; -fx-font-size: 19px; -fx-font-weight: bold; }
+.sidebar-subtitle { -fx-text-fill: #9fb4c8; -fx-font-size: 11px; }
+.nav-button { -fx-background-color: transparent; -fx-text-fill: #dce7f1; -fx-alignment: CENTER_LEFT; -fx-padding: 11 13; -fx-background-radius: 7; -fx-cursor: hand; }
+.nav-button:hover { -fx-background-color: #245477; -fx-text-fill: white; }
+.topbar { -fx-background-color: white; -fx-padding: 17 25; -fx-border-color: #e6edf3; -fx-border-width: 0 0 1 0; }
+.page-title { -fx-font-size: 23px; -fx-font-weight: bold; -fx-text-fill: #1b3148; }
+.content { -fx-padding: 25; -fx-spacing: 18; }
+.stat-card { -fx-background-color: white; -fx-background-radius: 12; -fx-padding: 18; -fx-border-color: #e7edf3; -fx-border-radius: 12; }
+.stat-number { -fx-font-size: 27px; -fx-font-weight: bold; -fx-text-fill: #173d60; }
+.stat-label { -fx-text-fill: #738397; }
+.form-card { -fx-background-color: white; -fx-background-radius: 12; -fx-padding: 22; -fx-border-color: #e7edf3; -fx-border-radius: 12; }
+.section-title { -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #203a54; }
+.text-field, .password-field, .combo-box, .date-picker { -fx-background-radius: 7; -fx-border-radius: 7; -fx-border-color: #d8e1ea; -fx-padding: 8; }
+.table-view { -fx-background-radius: 8; -fx-border-color: #e1e8ef; }
+.table-view .column-header { -fx-background-color: #edf3f8; }

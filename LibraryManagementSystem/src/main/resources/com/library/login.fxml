@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.library.controller.LoginController"
+           stylesheets="@style.css" styleClass="login-background">
+  <VBox maxWidth="390" spacing="16" styleClass="login-card">
+    <padding><Insets top="34" right="34" bottom="34" left="34"/></padding>
+    <Label text="BOOKNEST LIBRARY" styleClass="eyebrow"/>
+    <Label text="Welcome back" styleClass="login-title"/>
+    <Label text="Sign in to manage your library" styleClass="muted"/>
+    <VBox spacing="7"><Label text="Username"/><TextField fx:id="usernameField" promptText="Enter username"/></VBox>
+    <VBox spacing="7"><Label text="Password"/><PasswordField fx:id="passwordField" promptText="Enter password" onAction="#login"/></VBox>
+    <Label fx:id="messageLabel" styleClass="error-text" wrapText="true"/>
+    <Button text="Sign in" onAction="#login" maxWidth="Infinity" styleClass="primary-button"/>
+    <Button text="Clear / Reset" onAction="#clear" maxWidth="Infinity" styleClass="secondary-button"/>
+    <Label text="Demo account: admin / admin123" styleClass="hint"/>
+  </VBox>
+</StackPane>
